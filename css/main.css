@@ -1,3 +1,10 @@
+/*Colour Palette
+Red:;
+Grey:;
+Light Grey:;
+White:;
+*/
+
 @-moz-viewport {width: device-width; scale: 1;}
 @-ms-viewport {width: device-width; scale: 1;}
 @-o-viewport {width: device-width; scale: 1;}
@@ -10,7 +17,116 @@ html{
 	-ms-text-size-adjust: 100%;	
 	-webkit-text-size-adjust: 100%;	
 	text-size-adjust: 100%;
-
+	font-family: 'Roboto', sans-serif;
 }		
 *, *::before, *::after{
 	box-sizing: inherit;
+}
+img {
+  	display: block;
+  	width: 100%;
+}
+.bigbanner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+.bigbanner figcaption {
+  	bottom: 0;
+  	padding: 0.75rem 0;
+  	position: absolute;
+  	width: 100%;
+
+  	color: black;
+  	font-size: 2rem;
+  	font-weight: light;
+  	text-align: center;
+}
+.banner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+
+.banner figcaption {
+  	bottom: 0;
+  	padding: 1.75rem 0;
+  	position: absolute;
+  	width: 100%;
+
+  	color: black;
+  	font-size: 1.5rem;
+  	font-weight: light;
+  	text-align: center;
+}
+.easybanner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+
+.easybanner figcaption {
+  	bottom: 0;
+  	padding: 3.75rem 0;
+  	position: absolute;
+  	width: 100%;
+
+  	color: black;
+  	font-size: 2rem;
+  	font-weight: light;
+  	text-align: center;
+}
+br {
+	font-family: 'Roboto', sans-serif, light;
+}
+.icon-left {
+	width: 10%;
+	text-align: left;
+}
+nav{
+	text-align: right;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+nav a:hover{
+	background-color: grey;
+	color: white;
+}
+nav ul {
+	list-style: none;
+
+}
+.btn {
+  display: inline-block;
+  padding: 0.6em 1em;
+  margin: 0.8rem;
+  background-color: grey;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.btn a:hover{
+	color: black;
+	background-color: white
+}
+footer {
+	text-align: center;
+}
+/*FALALALALA MEDIA TIME */
+@media only screen and (min-width: 25em) {
+	nav li{
+		display: inline-block;
+	}
+	header nav {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 38em) {
+	header nav {
+		text-align: left;
+	}
+}
