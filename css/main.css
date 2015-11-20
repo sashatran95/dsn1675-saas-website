@@ -59,6 +59,9 @@ img {
   	font-weight: light;
   	text-align: center;
 }
+.overview{
+  	font-size: 3rem;
+}
 .easybanner {
   	margin: 0 0 1.5rem;
   	padding: 0;
@@ -80,7 +83,7 @@ br {
 	font-family: 'Roboto', sans-serif, light;
 }
 .icon-left {
-	width: 10%;
+	width: 20%;
 	text-align: left;
 }
 nav{
@@ -89,7 +92,7 @@ nav{
 nav a{
 	text-decoration: none;
 	color: black;
-	padding: 20px;
+	padding: 11px 35px;
 	display: block;
 }
 nav a:hover{
