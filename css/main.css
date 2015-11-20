@@ -25,6 +25,9 @@ html{
 img {
   	display: block;
   	width: 100%;
+/*}
+.thumbnail{
+	width: 50%;*/
 }
 .bigbanner {
   	margin: 0 0 1.5rem;
@@ -59,8 +62,7 @@ img {
   	font-weight: light;
   	text-align: center;
 }
-.overview{
-  	font-size: 3rem;
+.overviewbanner
 }
 .easybanner {
   	margin: 0 0 1.5rem;
@@ -101,7 +103,10 @@ nav a:hover{
 }
 nav ul {
 	list-style: none;
-
+}
+.colourthis{
+	background-color: black;
+	color: white;
 }
 .btn {
   display: inline-block;
@@ -127,9 +132,17 @@ footer {
 	header nav {
 		text-align: left;
 	}
+	.banner figcaption{
+		font-size: 15.5px;
+	}
 }
 @media only screen and (min-width: 38em) {
-	header nav {
-		text-align: left;
+	.banner figcaption{
+		font-size: 1rem;
+}
+@media only screen and (min-width: 607px) {
+	.colourthis{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 }
