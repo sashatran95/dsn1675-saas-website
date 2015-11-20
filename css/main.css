@@ -62,7 +62,22 @@ img {
   	font-weight: light;
   	text-align: center;
 }
-.overviewbanner
+.overviewbanner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+
+.overviewbanner figcaption {
+  	bottom: 0;
+  	padding: 1.75rem 0;
+  	position: absolute;
+  	width: 100%;
+
+  	color: black;
+  	font-size: 1.5rem;
+  	font-weight: light;
+  	text-align: center;
 }
 .easybanner {
   	margin: 0 0 1.5rem;
@@ -85,7 +100,7 @@ br {
 	font-family: 'Roboto', sans-serif, light;
 }
 .icon-left {
-	width: 20%;
+	width: 25%;
 	text-align: left;
 }
 nav{
@@ -123,6 +138,10 @@ nav ul {
 }
 footer {
 	text-align: center;
+	padding-bottom: 3rem; 
+}
+footer p{
+	font-size: 46px;
 }
 /*FALALALALA MEDIA TIME */
 @media only screen and (min-width: 25em) {
@@ -140,7 +159,7 @@ footer {
 	.banner figcaption{
 		font-size: 1rem;
 }
-@media only screen and (min-width: 607px) {
+@media only screen and (max-width: 607px) {
 	.colourthis{
 		padding-top: 1rem;
 		padding-bottom: 1rem;
