@@ -79,6 +79,23 @@ img {
   	font-weight: light;
   	text-align: center;
 }
+.pricingbanner {
+  	margin: 0 0 1.5rem;
+  	padding: 0;
+  	position: relative;
+}
+
+.pricingbanner figcaption {
+  	bottom: 0;
+  	padding: 1.75rem 0;
+  	position: absolute;
+  	width: 100%;
+
+  	color: black;
+  	font-size: 10rem;
+  	font-weight: light;
+  	text-align: center;
+}
 .easybanner {
   	margin: 0 0 1.5rem;
   	padding: 0;
