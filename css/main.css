@@ -26,6 +26,10 @@ img {
   	display: block;
   	width: 100%;
 }
+.smallimg {
+	width: %20;
+	display: block;
+}
 .bigbanner{
 	background-image: url(../images/images-banner.png);
 	background-size: cover;
