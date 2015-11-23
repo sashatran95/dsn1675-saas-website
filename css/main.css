@@ -190,6 +190,20 @@ nav ul {
 	color: black;
 	background-color: white
 }
+.btnright {
+  display: inline-block;
+  padding: 0.6em 1em;
+  margin: 0.8rem;
+  background-color: grey;
+  color: white;
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+}
+.btnright a:hover{
+	color: black;
+	background-color: white
+}
 footer {
 	text-align: center;
 	padding-bottom: 3rem; 
