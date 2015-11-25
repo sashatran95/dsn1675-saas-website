@@ -207,6 +207,7 @@ nav ul {
 footer {
 	text-align: center;
 	padding-bottom: 3rem; 
+	margin-top: 1rem;
 }
 footer p{
 	font-size: 46px;
@@ -217,7 +218,7 @@ footer p{
 		display: inline-block;
 	}
 	header nav {
-		text-align: left;
+		text-align: center;
 	}
 	.banner figcaption{
 		font-size: 15.5px;
