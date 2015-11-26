@@ -211,6 +211,10 @@ footer {
 }
 footer p{
 	font-size: 46px;
+	margin-top: 1rem;
+}
+.copyright{
+	font-size: 14px;
 }
 /*FALALALALA MEDIA TIME */
 @media only screen and (min-width: 25em) {
