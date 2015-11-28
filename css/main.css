@@ -162,6 +162,25 @@ nav ul {
 	color: black;
 	background-color: white
 }
+.meettheteam img{
+	width: 50%;
+	text-align: center;
+	margin: 1em;
+}
+.whatruwaiting4btn {
+  display: inline-block;
+  padding: 0.6em 1em;
+  margin: 0.8rem;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+.whatruwaiting4btn a:hover{
+	color: black;
+	background-color: white;
+}
 .whatruwaiting4{
 	margin: 13px 9px 13px 0.5rem;
 }
@@ -179,6 +198,28 @@ footer p{
 	color: grey;
 }
 /*FALALALALA MEDIA TIME */
+@media only screen and (min-width: 100px) and (max-width: 607px) {
+	.smallimg {
+		padding-top: 1em;
+		width: 89%;
+		display: block;
+	}
+	.meettheteam img{
+		width: 100%;
+		padding-right: 2em;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 774px) {
+	.whatruwaiting4 {
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 775px) {
+	.whatruwaiting4btn  {
+		text-align: right;
+	}
+}
+
 @media only screen and (min-width: 25em) {
 	nav li{
 		display: inline-block;
