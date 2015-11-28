@@ -105,10 +105,6 @@ br {
 }
 .icon-left {
 	width: 25%;
-	text-align: left;
-}
-nav{
-	text-align: right;
 }
 nav a{
 	text-decoration: none;
