@@ -182,7 +182,7 @@ nav ul {
 	color: black;
 	background-color: white;
 }
-.whatruwaiting4{
+.whatruwaiting4, .description{
 	margin: 13px 9px 13px 0.5rem;
 	text-align: center;
 }
@@ -198,6 +198,17 @@ footer p{
 .copyright{
 	font-size: 12px;
 	color: grey;
+}/*Accessibility*/
+a:focus {
+  outline: 3px solid #000;
+}
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 /*FALALALALA MEDIA TIME */
 @media only screen and (min-width: 100px) and (max-width: 607px) {
@@ -210,8 +221,19 @@ footer p{
 		width: 100%;
 		padding-right: 2em;
 	}
+	.3choices h2{
+		margin: 0;
+	  	padding: 0;
+	  	font-size: 25px;
+  		position: relative;
+	}
 }
-@media only screen and (min-width: 100px) and (max-width: 774px) {
+@media only screen and (min-width: 960px) {
+	.description{
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 100px) {
 	.whatruwaiting4 {
 		text-align: left;
 	}
@@ -223,8 +245,10 @@ footer p{
 	.whatruwaiting4btn  {
 		text-align: right;
 	}
+	.whatruwaiting4 h2  {
+		text-align: left;
+	}
 }
-
 @media only screen and (min-width: 25em) {
 	nav li{
 		display: inline-block;
@@ -237,6 +261,9 @@ footer p{
 	}
 }
 @media only screen and (min-width: 38em) {
+	header nav{
+		text-align: right;
+	}
 	.banner figcaption{
 		font-size: 1rem;
 }
