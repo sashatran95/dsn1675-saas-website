@@ -103,8 +103,11 @@ img {
 br {
 	font-family: 'Roboto', sans-serif, light;
 }
-.icon-left {
+.icon {
 	width: 25%;
+}
+header {
+	width: 100%;
 }
 nav {
 	text-align: center;
