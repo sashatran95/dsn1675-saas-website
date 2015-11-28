@@ -27,7 +27,8 @@ img {
   	width: 100%;
 }
 .smallimg {
-	width: %20;
+	padding-top: 3.5em;
+	width: 89%;
 	display: block;
 }
 .bigbanner{
