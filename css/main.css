@@ -125,6 +125,8 @@ nav ul {
 .colourthis{
 	background-color: black;
 	color: white;
+    padding: 1.3em 20px 0.3em;
+    margin-bottom: 1em;
 }
 .btn {
   display: inline-block;
@@ -187,14 +189,4 @@ footer p{
 @media only screen and (min-width: 38em) {
 	.banner figcaption{
 		font-size: 1rem;
-}
-@media only screen and (max-width: 607px) {
-	.colourthis{
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-	}
-	.thumbnail {
-		width: 50%;
-		text-align: center;
-	}
 }
