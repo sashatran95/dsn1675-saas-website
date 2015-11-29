@@ -215,8 +215,9 @@ a:focus {
 @media only screen and (min-width: 100px) and (max-width: 607px) {
 	.smallimg {
 		padding-top: 1em;
-		width: 89%;
+		width: 100%;
 		display: block;
+		text-align: center;
 	}
 	.meettheteam img{
 		width: 100%;
