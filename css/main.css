@@ -244,6 +244,10 @@ a:focus {
 	}
 }
 @media only screen and (min-width: 548px) {
+	.icon{
+		text-align: left;
+		margin: 0 20px 0;
+	}
 	nav {
 		text-align: right;
 	}
