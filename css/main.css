@@ -208,20 +208,17 @@ footer p{
 	color: grey;
 
 }/*Accessibility*/
-/*a:focus {
-  outline: 3px solid;
+a:focus {
+	outline: 3px solid;
 }
 .skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 .skip-links a {
-  position: absolute;
-  top: 0;
-  background-color: #000;
-  color: white;
-  padding: 0.5em 0.75em;*/
+	position: absolute;
+	top: 0;
 }
 /*FALALALALA MEDIA TIME */
 @media only screen and (min-width: 100px) and (max-width: 100px) {
