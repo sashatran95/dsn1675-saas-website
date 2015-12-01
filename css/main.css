@@ -251,6 +251,15 @@ a:focus {
 	}
 	nav {
 		text-align: right;
+		margin-top: 15px 
+	}
+	nav li {
+		display: inline-block;
+	}		
+}
+@media only screen and (min-width: 690px) {
+	nav {
+		text-align: right;
 		margin-top: 20px 
 	}
 	nav li {
@@ -259,8 +268,6 @@ a:focus {
 	nav a{
 		margin: 0 30px 0 30px;
 	}
-	nav a:hover{
-		padding: 10px 35px 10px 35px;
 }
 @media only screen and (min-width: 548px) and (max-width: 607px) {
 	.icon{
@@ -274,7 +281,7 @@ a:focus {
 		margin: 0 30px 0 30px;
 	}
 	nav a:hover{
-		padding: 10px 35px 10px 35px;
+		padding: 0 30px 0 30px;
 	}
 	nav li {
 		display: inline-block;
