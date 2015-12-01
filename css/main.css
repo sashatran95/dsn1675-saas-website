@@ -209,7 +209,7 @@ footer p{
 
 }/*Accessibility*/
 a:focus {
-	outline: 3px solid;
+	outline: 1px solid;
 }
 .skip-links {
 	margin: 0;
@@ -218,7 +218,6 @@ a:focus {
 }
 .skip-links a {
 	position: absolute;
-	top: 0;
 }
 /*FALALALALA MEDIA TIME */
 @media only screen and (min-width: 100px) and (max-width: 100px) {
