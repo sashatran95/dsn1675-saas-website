@@ -332,15 +332,43 @@ footer p{
 	.description{
 		text-align: left;
 	}
+	.whatruwaiting4 h2  {
+		text-align: left;
+		margin-left: 5.5em;
+	}
 }
 @media only screen and (min-width: 1200px){
 	nav {
 		margin-top: 30px;
 	}
 }
+@media only screen and (min-width: 1400px){
+	.smallimg {
+		width: 31%;
+		padding-top: 3.5rem;
+		margin-left: 25em;
+		padding-bottom: 3.5rem;
+		text-align: right;
+	}
+	.description {
+		margin-left: 5em;
+		margin-top: 2rem; 
+	}
+}
 @media only screen and (min-width: 1600px){
 	nav {
 		margin-top: 50px;
+	}
+	.smallimg {
+		width: 31%;
+		padding-top: 3.5rem;
+		margin-left: 15em;
+		padding-bottom: 3.5rem;
+		text-align: right;
+	}
+	.description {
+		margin-left: 10em;
+		margin-top: 2rem; 
 	}
 }
 @media only screen and (min-width: 1800px){
