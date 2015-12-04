@@ -194,6 +194,11 @@ nav ul {
 	margin: 13px 9px 13px 0.5rem;
 	text-align: center;
 }
+.footericon{
+	width: 50%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 footer {
 	text-align: center;
 	padding-bottom: 3rem; 
