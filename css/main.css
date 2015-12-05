@@ -20,7 +20,7 @@ img {
 	text-align: center;
 }
 .tourimg{
-	width: 10%;
+	width: 40%;
 	display: block;
 }
 .tourp{
@@ -301,7 +301,7 @@ a:focus {
 		font-size: 17px;
 	}
 	.tourimg{
-		width: 10%;
+		width: 50%;
 		display: inline-block;
 	}
 	.tourp{
