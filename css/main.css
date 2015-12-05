@@ -132,13 +132,13 @@ nav ul {
     margin-bottom: 1em;
 }
 .btn {
-  display: inline-block;
-  padding: 0.6em 1em;
-  margin: 0.8rem;
-  background-color: grey;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: grey;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
 }
 .3choices img{
 	width: 50%;
@@ -156,6 +156,24 @@ nav ul {
 	text-align: right;
 	font-size: 18px;
 	text-decoration: none;
+}
+.btnright a:hover{
+	color: black;
+	background-color: white
+}
+
+.back2topbtn {
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+.back2topbtnbtn a:hover{
+	color: black;
+	background-color: white;
 }
 .3choices h2{
 	margin: 0;
@@ -177,14 +195,14 @@ nav ul {
 	margin: 1em;
 }
 .whatruwaiting4btn {
-  display: inline-block;
-  padding: 0.6em 1em;
-  margin: 0.8rem;
-  background-color: grey;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none;
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
 }
 .whatruwaiting4btn a:hover{
 	color: black;
