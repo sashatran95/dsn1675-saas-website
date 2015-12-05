@@ -19,6 +19,14 @@ img {
 	display: block;
 	text-align: center;
 }
+.tourimg{
+	width: 10%;
+	display: block;
+}
+.tourp{
+	text-align: center;
+
+}
 .bigbanner{
 	background-image: url(../images/images-banner.png);
 	background-size: cover;
@@ -292,6 +300,13 @@ a:focus {
 	.btn {
 		font-size: 17px;
 	}
+	.tourimg{
+		width: 10%;
+		display: inline-block;
+	}
+	.tourp{
+		text-align: left;
+		display: inline-block;
 }
 @media only screen and (min-width: 34.5em) {/*552px*/
 	.banner figcaption{
