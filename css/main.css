@@ -136,7 +136,7 @@ nav ul {
 .colourthistour{
 	background-color: black;
 	color: white;
-    padding: 1.3em 20px 3em;
+    padding-top: 1.3em;
     padding-bottom: 1px;
     margin-bottom: 1em;
     text-align: center;
@@ -181,11 +181,6 @@ nav ul {
 .btnright a:hover{
 	color: black;
 	background-color: white
-}
-.meettheteam img{
-	width: 50%;
-	text-align: center;
-	margin: 1em;
 }
 .whatruwaiting4{
 	background-image: url(../images/images-banner.png);
