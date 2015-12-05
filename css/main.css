@@ -294,7 +294,7 @@ a:focus {
 		font-size: 17px;
 	}
 }
-@media only screen and (min-width: 552px) {/*552px*/
+@media only screen and (min-width: 34.5em) {/*552px*/
 	.banner figcaption{
 		font-size: 22px;
 	}
@@ -370,7 +370,7 @@ a:focus {
 		font-size: 30px;
 	}
 }
-@media only screen and (min-width: 855px) {/*855px*/
+@media only screen and (min-width: 53.4375em) {/*855px*/
 	.banner figcaption{
 		padding-top: 1em;
 		padding-bottom: 3em;
@@ -392,8 +392,19 @@ a:focus {
 		padding: 2.4em;
 	}
 }
-/*@media only screen and (min-width:63.125em){/*1010px*/
-
+@media only screen and (min-width:65em){
+	.h1other{
+		font-size: 56px;
+	}
+	.intro{
+		font-size: 40px;
+	}
+	.br{
+		font-size: 23px;
+	}
+	.btn {
+		font-size: 19px;
+	}
 }
 @media only screen and (min-width: 75em){/*1200px*/
 	nav {
