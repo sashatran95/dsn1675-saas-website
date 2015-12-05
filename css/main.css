@@ -310,6 +310,9 @@ a:focus {
 	nav a{
 		margin: 0 30px 0 30px;
 	}
+	.footericon{
+		width: 30%;
+	}
 }
 @media only screen and (min-width: 48.4375em) {/*775px*/
 	.whatruwaiting4btn  {
@@ -327,8 +330,11 @@ a:focus {
 		text-align: left;
 		margin-left: 5.5em;
 	}
+	.footericon{
+		width: 20%;
+	}
 }
-@media only screen and (min-width:63.125em){/*1010px*/
+/*@media only screen and (min-width:63.125em){/*1010px*/
 
 }
 @media only screen and (min-width: 75em){/*1200px*/
@@ -363,6 +369,9 @@ a:focus {
 	.description {
 		margin-left: 10em;
 		margin-top: 2rem; 
+	}
+	.footericon{
+		width: 10%;
 	}
 }
 @media only screen and (min-width: 112.5em){/*1800px*/
