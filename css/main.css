@@ -1,13 +1,12 @@
 /*Colour Palette
-Blue: #006192;
-Grey:;
-Light Grey:;
-White:;
+Navy Blue: #006192;
+Teal: #9bd7d8;
+Wallflower blue: #9cbdd8;
 */
 
 html{
 	font-family: 'Roboto', sans-serif;
-
+	font-weight: 300;
 }
 img {
   	display: block;
@@ -15,18 +14,19 @@ img {
 }
 .smallimg {
 	padding-top: 1em;
-	width: 100%;
+	width: 75%;
 	display: block;
 	text-align: center;
+	margin: 0 auto;
 }
 .tourimg{
 	width: 40%;
 	display: block;
 	text-align: center;
+	margin: 0 auto;
 }
 .tourp{
 	text-align: center;
-
 }
 .bigbanner{
 	background-image: url(../images/images-banner.png);
@@ -42,13 +42,13 @@ img {
   	padding: 0;
   	padding-top: 1em;
   	position: relative;
+	color: #006192;
 }
 
 .banner figcaption {
   	bottom: 0;
   	position: absolute;
   	width: 100%;
-  	color: black;
   	font-weight: 300;
   	text-align: center;
 	font-size: 16px;
@@ -84,17 +84,18 @@ img {
 	text-align: center;
 	font-size: 26px;
 	margin-top: 2rem;
+	color: white;
 }
 .intro{
 	text-align: center;
-	font-size: 24.4px;
+	font-size: 26.5px;
 	margin-top: 2rem;
 }
 .btn {
 	display: inline-block;
 	padding: 0.6em 1em;
 	margin: 0.8rem;
-	background-color: grey;
+	background-color: #006192;
 	color: white;
 	font-size: 14px;
 	text-decoration: none;
@@ -108,6 +109,7 @@ img {
 	font-size: 16px;
 	font-weight: 300;
 	font-style: normal;
+	color: #006192;
 }
 .icon {
 	width: 50%;
@@ -121,33 +123,37 @@ nav {
 }
 nav a{
 	text-decoration: none;
-	color: black;
+	color: white;
 	padding: 11px 35px;
 	display: block;
 }
 nav a:hover{
-	background-color: grey;
-	color: white;
+	background-color: #9bd7d8;
+	color: #006192;
 }
 nav ul {
 	list-style: none;
 }
 .colourthis{
-	background-color: black;
+	background-color: #9cbdd8;
 	color: white;
     padding: 1.3em 20px 0.3em;
     padding-bottom: 1px;
     margin-bottom: 1em;
 }
 .colourthisfoot{
-	background-color: black;
+	background-color: #006192;
 }
 .colourthistour{
-	background-color: black;
+	background-color: #006192;
 	color: white;
     padding-top: 1.3em;
     padding-bottom: 1px;
     margin-bottom: 1em;
+    text-align: center;
+}
+.colourthisheader{
+	background-color: #006192;
     text-align: center;
 }
 .3choices img{
@@ -157,7 +163,7 @@ nav ul {
 	display: inline-block;
 	padding: 0.6em 1em;
 	margin: 0.8rem;
-	background-color: grey;
+	background-color: #9bd7d8;
 	color: white;
 	text-align: right;
 	font-size: 18px;
@@ -167,13 +173,17 @@ nav ul {
 	color: black;
 	background-color: white
 }
-
+.thumbnail{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
 .back2topbtn {
 	display: inline-block;
 	padding: 0.6em 1em;
 	margin: 0.8rem;
-	background-color: black;
-	color: white;
+	background-color: #006192;
+	color: #9bd7d8;
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -196,6 +206,7 @@ nav ul {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	color: #006192;
 	padding-top: 3em;
 	padding-bottom: 2em;
 }
@@ -203,7 +214,7 @@ nav ul {
 	display: inline-block;
 	padding: 0.6em 1em;
 	margin: 0.8rem;
-	background-color: grey;
+	background-color: #006192;
 	color: white;
 	text-align: center;
 	font-size: 18px;
@@ -220,7 +231,13 @@ nav ul {
 .footericon{
 	width: 50%;
 	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.soc-icon{
+	width: 9%;
+	margin-top: 1rem;
 	margin-bottom: 2rem;
+	display: inline-block;
 }
 footer {
 	text-align: center;
@@ -231,7 +248,7 @@ footer p{
 }
 .copyright{
 	font-size: 12px;
-	color: grey;
+	color: #9bd7d8;
 
 }/*Accessibility*/
 a:focus {
@@ -293,7 +310,7 @@ a:focus {
 		font-size: 40px;
 	}
 	.intro{
-		font-size: 33px;
+		font-size: 43.5px;
 	}
 	.br{
 		font-size: 18px;
@@ -317,7 +334,9 @@ a:focus {
 @media only screen and (min-width: 38em) {/*608px*/
 	.smallimg {
 		padding-top: 3.5em;
-		width: 89%;
+		width: 90%;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
 		display: block;
 	}
 	.icon{
@@ -394,6 +413,7 @@ a:focus {
 }
 @media only screen and (min-width: 60em) {/*960px*/
 	.description{
+		margin-left: 0 auto;
 		text-align: left;
 	}
 	.whatruwaiting4 h2  {
