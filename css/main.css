@@ -360,6 +360,13 @@ a:focus {
 	position: absolute;
 
 }/*Forms*/
+legend{
+	font-weight: 400;
+
+}
+.accountinfo{
+	padding-top: 3rem;
+}
 label {
 	display: block;
 	cursor: pointer;
