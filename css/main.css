@@ -21,7 +21,7 @@ img {
 	margin: 0 auto;
 }
 .tourimg{
-	width: 80%;
+	width: 70%;
 	display: block;
 	text-align: center;
 	margin: 0 auto;
@@ -83,7 +83,16 @@ img {
 	font-weight: 400;
 }
 .pricingbanner{
-	background-image: url(../images/images-banner.png);
+	background-image: url(../images/photo-7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: black;
+	position: relative;
+	padding: 3.5em;
+}
+.loginbanner{
+	background-image: url(../images/photo-8.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -224,7 +233,8 @@ nav ul {
 .btnright a:hover{
 	color: black;
 	background-color: white
-}
+
+}/**/
 .whatruwaiting4{
 	background-image: url(../images/photo-3.jpg);
 	background-size: cover;
@@ -251,7 +261,35 @@ nav ul {
 .whatruwaiting4, .description{
 	margin: 13px 9px 13px 0.5rem;
 	text-align: center;
+}/*
+.subscripcurious{
+	background-image: url(../images/photo-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color: #006192;
+	padding-top: 3em;
+	padding-bottom: 2em;
 }
+.subscripcuriousbtn {
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: #006192;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
+}
+.subscripcuriousbtn a:hover{
+	color: black;
+	background-color: white;
+}
+.subscripcurious, .description{
+	margin: 13px 9px 13px 0.5rem;
+	text-align: center;
+}/**/
+
 .footericon{
 	width: 40%;
 	margin-top: 1rem;
@@ -385,6 +423,11 @@ button {
 		margin-right: 0 auto;
 		display: block;
 	}
+	.tourimg{
+		width: 50%;
+		display: block;
+		text-align: left;
+	}
 	.icon{
 		text-align: left;
 		margin: 39px 20px 0;
@@ -466,6 +509,9 @@ button {
 	.banner figcaption{
 		padding: 2.4em;
 	}
+	.tourimg{
+		width: 30%
+	}
 }
 @media only screen and (min-width:65em){
 	.h1other{
@@ -500,6 +546,9 @@ button {
 	}
 	.banner figcaption{
 		padding: 5em;
+	}
+	.tourimg{
+		width: 20%
 	}
 }
 @media only screen and (min-width: 100em){/*1600px*/
