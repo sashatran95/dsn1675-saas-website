@@ -7,6 +7,7 @@ Wallflower blue: #9cbdd8;
 html{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	color: #006192;
 }
 img {
   	display: block;
@@ -14,23 +15,28 @@ img {
 }
 .smallimg {
 	padding-top: 1em;
-	width: 75%;
+	width: 50%;
 	display: block;
 	text-align: center;
 	margin: 0 auto;
 }
 .tourimg{
-	width: 40%;
+	width: 80%;
 	display: block;
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: 1.5em;
+	margin-top: 0;
 }
 .tourp{
 	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 .bigbanner{
-	background-image: url(../images/images-banner.png);
+	background-image: url(../images/photo-1.jpg);
 	background-size: cover;
+
 	background-repeat: no-repeat;
 	text-align: center;
 	color: black;
@@ -38,29 +44,43 @@ img {
 	padding: 3.5em;
 }
 .banner {
-  	margin: 15px 0 1.5rem;
-  	padding: 0;
-  	padding-top: 1em;
+	padding-top: 6.5em;
+	padding-bottom: 3.5em;
+  	margin: 0 auto;
   	position: relative;
 	color: #006192;
+	background-image: url(../images/photo-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-
-.banner figcaption {
+.banner p {
   	bottom: 0;
   	position: absolute;
   	width: 100%;
-  	font-weight: 300;
+  	font-weight: 400;
   	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 .overviewbanner{
-	background-image: url(../images/images-banner.png);
+	background-image: url(../images/photo-4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: black;
 	position: relative;
 	padding: 3.5em;
+}
+.portrait{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.thatswhattheysaid{
+	padding: 1em;
+	font-weight: 400;
 }
 .pricingbanner{
 	background-image: url(../images/images-banner.png);
@@ -90,6 +110,7 @@ img {
 	text-align: center;
 	font-size: 26.5px;
 	margin-top: 2rem;
+	color: #006192;
 }
 .btn {
 	display: inline-block;
@@ -133,6 +154,9 @@ nav a:hover{
 }
 nav ul {
 	list-style: none;
+}
+.optionsp{
+	color: #006192;	
 }
 .colourthis{
 	background-color: #9cbdd8;
@@ -202,7 +226,7 @@ nav ul {
 	background-color: white
 }
 .whatruwaiting4{
-	background-image: url(../images/images-banner.png);
+	background-image: url(../images/photo-3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -229,7 +253,7 @@ nav ul {
 	text-align: center;
 }
 .footericon{
-	width: 50%;
+	width: 40%;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
@@ -261,6 +285,30 @@ a:focus {
 }
 .skip-links a {
 	position: absolute;
+
+}/*Forms*/
+label {
+	display: block;
+	cursor: pointer;
+}
+input + label {
+	display: inline;
+	padding: .5em;
+}
+input {
+	border: 2px solid blue;
+	background-color: lightblue;
+	font-size: 12px;
+	padding: 5px;
+	width: 50%;
+}
+
+button {
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid blue;
+	background-image: linear-gradient(blue, lightblue);
 }
 /*FALALALALA MEDIA TIME */
 
@@ -279,6 +327,7 @@ a:focus {
 	.banner figcaption { 
 	  	padding: 1.5rem;
 	  	margin: 0 auto;
+		font-size: 18.5px;
 	}
 	.easybanner figcaption {
 		padding: 1.5rem;
@@ -287,9 +336,6 @@ a:focus {
 	}
 	header nav {
 		text-align: center;
-	}
-	.banner figcaption{
-		font-size: 18.5px;
 	}
 }
 @media only screen and (min-width: 34.25em){/*548px*/
@@ -386,9 +432,6 @@ a:focus {
 	nav a{
 		margin: 0 30px 0 30px;
 	}
-	.footericon{
-		width: 30%;
-	}
 }
 @media only screen and (min-width: 48.4375em) {/*775px*/
 	.whatruwaiting4btn  {
@@ -419,9 +462,6 @@ a:focus {
 	.whatruwaiting4 h2  {
 		text-align: left;
 		margin-left: 5.5em;
-	}
-	.footericon{
-		width: 20%;
 	}
 	.banner figcaption{
 		padding: 2.4em;
@@ -473,9 +513,6 @@ a:focus {
 	}
 	.description {
 		margin-top: 2rem; 
-	}
-	.footericon{
-		width: 10%;
 	}
 }
 @media only screen and (min-width: 112.5em){/*1800px*/

@@ -44,16 +44,83 @@
 	</div>
 </div>
 
+<form action="https://formspree.io/ht.sasha.tran@gmail.com" method="post">
+	<div>
+		<label for="first-name"> First Name</label>
+		<input id="first-name" required name ="first-name">
+	</div>
+
+	<div>
+		<label for="last-name">Last Name</label>
+		<input id="last-name" required name ="last-name">
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input id="email" type="email" required placeholder="you@yours.com">
+	</div>
+
+	<div>
+		<label for="subject">Subject</label>
+		<select id="subject" name="_subject">
+			<option>I'm looking for a freelancer</option>
+			<option>Let's get a coffee</option>
+			<option>You're awesome!</option>
+		</select>
+	</div>
+
+	<fieldset>
+		<legend>How are you feeling?</legend>
+
+		<input id="happy" type="radio" name="feels">
+		<label for="happy">Happy</label>
+
+		<input id="sad" type="radio" name="feels">
+		<label for="sad">Sad</label>
+
+		<input id="tired" type="radio" name="feels">
+		<label for="tired">Tired</label>
+
+		<input id="super" type="radio" name="feels">
+		<label for="super">Super</label>
+	</fieldset>
+
+	<div>
+		<label for="message">Message</label>
+		<textarea id="message" name="message"></textarea>
+	</div>
+
+	<div>
+		<button type="submit">Send!</button>
+	</div>
+</form>
+
+<input type="hidden" name="_next" value="http://sashtran95.github.io/forms-demo/thanks.html">
+
 </main>
 
-<div class= "grid">
-	<div class="unit xs-1 s-1 m-1 l-1">
-		<footer class="footer colourthisfoot">
+<footer class="footer colourthisfoot">
+	<div class= "grid">
+		
+		<div class="unit xs-1 s-1 m-1 l-1">
   			<a class ="back2topbtn" href="#" aria-label="Click here to goto the top of the page.">Back to Top</a>
-		<a href="index.html" aria-label="Click here to go back to the home page"><img class="footericon unit-xs-centered s-centered m-centered l-centered peta push-0" src="images/home-footer.svg" alt="home"></a>
-  			<p class="copyright push-0"> Copyright©2015 MyMotion. All Rights Reserved.</p>
-		</footer>
+  		</div>
+		<div class="unit xs-1 s-1 m-1-2 l-1-2">
+			<a href="index.html" aria-label="Click here to go back to the home page"><img class="footericon unit-xs-centered s-centered m-left l-left peta push-0" src="images/home-footer.svg" alt="home"></a>
+		</div>
+		
+		<div class="unit xs-1 s-1 m-1-2 l-1-2">
+			<a href="https://www.instagram.com/" aria-label="Click here to go to Instagram"><img class="soc-icon" src="images/instagram.svg" alt="Instagram"></a>
+			<a href="https://plus.google.com/" aria-label="Click here to go to Google Plus"><img class="soc-icon" src="images/googplus.svg" alt="Google Plus"></a>
+			<a href="https://www.facebook.com/" aria-label="Click here to go to Facebook"><img class="soc-icon" src="images/fb.svg" alt="Facebook"></a>
+			<a href="https://www.twitter.com/" aria-label="Click here to go to Twitter"><img class="soc-icon" src="images/twit.svg" alt="Twitter"></a>
+		</div>
+  			<div class="unit xs-1 pad-b">
+  			<p class="copyright"> Copyright©2015 MyMotion. All Rights Reserved.</p>
+  			</div>
+		</div>
 	</div>
-</div>
+</footer>
+
 </body>
 </html>
