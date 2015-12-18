@@ -217,10 +217,15 @@ nav ul {
 	text-align: center;
 	font-weight: 300;
 	font-size: 16px;
-	padding-top: 3em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 .colourthx footer{
 	background-color: white;
+}
+.copyrightthx{
+	font-size: 12px;
+	color: #9bd7d8;
 }
 .btnright {
 	display: inline-block;
