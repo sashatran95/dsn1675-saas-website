@@ -121,19 +121,6 @@ img {
 	margin-top: 2rem;
 	color: white;
 }
-.btn {
-	display: inline-block;
-	padding: 0.6em 1em;
-	margin: 0.8rem;
-	background-color: #006192;
-	color: white;
-	font-size: 14px;
-	text-decoration: none;
-}
-.btn:hover{
-	color: #006192;
-	background-color: #9bd7d8;
-}
 .br {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -167,17 +154,18 @@ nav ul {
 .optionsp{
 	color: #006192;	
 }
+.faq{
+	text-align: center;
+}
 .faq h3{
   	font-size: 18px;
 	margin: 0 auto;
-  	padding-bottom: 5px;
+  	padding-bottom: 7px;
 	position: relative;
-	text-align: center;
 }
 .faq p{
 	margin: 0 auto;
 	position: relative;
-	text-align: center;
 }
 .faq{
 	padding-bottom: 1em;
@@ -232,44 +220,17 @@ nav ul {
 	color: #006192;
 	padding-top: 7em;
 }
-.btnright {
-	display: inline-block;
-	padding: 0.6em 1em;
-	margin: 0.8rem;
-	background-color: #9bd7d8;
-	color: white;
-	text-align: right;
-	font-size: 18px;
-	text-decoration: none;
-}
-.btnright a:hover{
-	color: #006192;
-	background-color: #9bd7d8;
-}
 .thumbnail{
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
-}
-.back2topbtn {
-	display: inline-block;
-	padding: 0.6em 1em;
-	margin: 0.8rem;
-	background-color: #006192;
-	color: white;
-	font-size: 18px;
-	text-decoration: none;
-}
-.back2topbtn:hover{
-	color: #006192;
-	background-color: #9bd7d8;
 }
 .3choices h2{
 	margin: 0 auto;
   	font-size: 20px;
 	position: relative;
 
-}/**/
+}
 .whatruwaiting4{
 	background-image: url(../images/photo-3.jpg);
 	background-size: cover;
@@ -278,7 +239,8 @@ nav ul {
 	color: #006192;
 	padding-top: 3em;
 	padding-bottom: 2em;
-}
+
+}/*Buttons*/
 .whatruwaiting4btn {
 	display: inline-block;
 	padding: 0.6em 1em;
@@ -296,6 +258,46 @@ nav ul {
 .whatruwaiting4, .description{
 	margin: 13px 9px 13px 0.5rem;
 	text-align: center;
+}
+.back2topbtn {
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: #006192;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+.back2topbtn:hover{
+	color: #006192;
+	background-color: #9bd7d8;
+}
+.btnright {
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: #9bd7d8;
+	color: white;
+	text-align: right;
+	font-size: 18px;
+	text-decoration: none;
+}
+.btnright:hover{
+	color: #006192;
+	background-color: #9bd7d8;
+}
+.btn {
+	display: inline-block;
+	padding: 0.6em 1em;
+	margin: 0.8rem;
+	background-color: #006192;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+.btn:hover{
+	color: #006192;
+	background-color: #9bd7d8;
 }/*
 .subscripcurious{
 	background-image: url(../images/photo-3.jpg);
@@ -461,11 +463,13 @@ button:hover {
 	.banner figcaption{
 		font-size: 22px;
 	}
-	.faq p {
-		text-align: left;
-	}
 	.faq h3{
 	  	font-size: 21px;
+  		padding-bottom: 10px;
+		text-align: left;
+	}
+	.faq p{
+		text-align: left;
 	}
 }
 @media only screen and (min-width: 38em) {/*608px*/
