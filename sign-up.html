@@ -53,15 +53,16 @@
 
 	<fieldset>
 		<legend>Log In</legend>
+			<div class="grid">
+				<div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+					<label for="username">Username</label>
+					<input id="username" type="type" required name="text">
+				</div>
 
-			<div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 pad-t-1-2 blue">
-				<label for="username">Username</label>
-				<input id="username" type="type" required name="text">
-			</div>
-
-			<div class="unit xs-1 s-1 m-1-2 l-1-3 blue pad-t-1-2 gutter-1-2">
-				<label for="password">Password</label>
-				<input id="password" type="password" required name="password">
+				<div class="unit xs-1 s-1 m-1-2 gutter-1-2">
+					<label for="password">Password</label>
+					<input id="password" type="password" required name="password">
+				</div>
 			</div>
 	</fieldset>
 
@@ -74,22 +75,22 @@
 				</div>
 
 
-				<div class="unit xs-1 s-1 m-1-2 blue gutter-1-2">
+				<div class="unit xs-1 s-1 m-1-2 gutter-1-2">
 					<label for="last-name">Last Name</label>
 					<input id="last-name" class="w-1" required name="lastname">
 				</div>
 
-				<div class="unit xs-1 l-1-3 blue pad-t-1-2 pad-b gutter-1-2">
+				<div class="unit xs-1 l-1-3 pad-t-1-2 pad-b gutter-1-2">
           			<label for="email">Email</label>
           			<input id="email" type="email" required placeholder="johndoe@gmail.com">
         		</div>
-				<div class="unit xs-1 l-1-3 blue pad-t-1-2 pad-b gutter-1-2">
+				<div class="unit xs-1 l-1-3 pad-t-1-2 pad-b gutter-1-2">
           			<label for="confirm-email">Confirm Email</label>
           			<input id="confirm-email" type="confirm-email" required placeholder="johndoe@gmail.com">
         		</div>
      
 
-			<div class="unit xs-1-3 blue gutter-1-2">
+			<div class="unit xs-1-3 gutter-1-2">
 			<label for="month">Birthday</label>
 				<select id="month" required>
 					<option value default="default" selected="selected">Month</option>
@@ -107,7 +108,7 @@
 					<option>12</option>
 				</select>
 			</div>
-			<div class="unit xs-1-3 blue gutter-1-2">
+			<div class="unit xs-1-3 gutter-1-2">
 			<label for="day">Day</label>
 				<select id="day" required>
 					<option value default="default" selected="selected">day</option>
@@ -146,7 +147,7 @@
 					<option>31</option>
 				</select>
 			</div>
-			<div class="unit xs-1-3 blue gutter-1-2">				
+			<div class="unit xs-1-3 gutter-1-2">				
 			<label for="year">Year</label>
 				<select id="year" required>
 					<option value default="default" selected="selected">year</option>
@@ -267,19 +268,20 @@
 					<option>2015</option>
 				</select>
 			</div>
-
+		
+		<div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 pad-t-1-2 blue">
 		<legend class="accountinfo">Account Info</legend>
-
+	</div>
 			<div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 pad-t-1-2 blue">
 				<label for="username">Username</label>
 				<input id="username" type="type" required name="text">
 			</div>
 
-			<div class="unit xs-1 s-1 m-1-2 l-1-3 blue pad-t-1-2 gutter-1-2">
+			<div class="unit xs-1 s-1 m-1-2 l-1-3 pad-t-1-2 gutter-1-2">
 				<label for="password">Password</label>
 				<input id="password" type="password" required name="password">
 			</div>
-			<div class="unit xs-1 s-1 m-1-2 l-1-3 blue pad-t-1-2 gutter-1-2">
+			<div class="unit xs-1 s-1 m-1-2 l-1-3 pad-t-1-2 gutter-1-2">
 				<label for="confirm-password">Confirm Password</label>
 				<input id="confirm-password" type="confirm-password" required name="retype-password">
 			</div>
@@ -289,7 +291,7 @@
 		<legend>Billing Info</legend>
 
 			<div class="grid">
-				<div class="unit xs-1-2 pad-b blue gutter-1-2">
+				<div class="unit xs-1-2 pad-b gutter-1-2">
 					<label for="plans">Price Plan</label>
 					<select id="plans" name="plans">
 						<option>Free Trial</option>
@@ -300,7 +302,7 @@
 			</div>
 	</fieldset>
 
-		<div class="unit xs-1 gutter-2 pad-t-2 blue text-center">
+		<div class="unit xs-1 gutter-2 pad-t-2 text-center">
 		<button type="submit">Submit</button>
 		</div>
 			<input type="hidden" name="_next"value="ttp://sashtran95.github.io/forms-demo/thanks.html">
