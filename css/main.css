@@ -380,8 +380,8 @@ button {
 	font-size: 12px;
 	padding: 10px;
 	border-radius: 10px;
-	border: 1px solid blue;
-	background-image: linear-gradient(blue, lightblue);
+	border: 1px #006192;
+	background-colour: #006192;
 }
 /*FALALALALA MEDIA TIME */
 
