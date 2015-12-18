@@ -68,7 +68,7 @@
 
 	<fieldset>
 		<legend>Sign-Up</legend>
-			<div class="grid">
+			<div class="grid grid-bottom">
 				<div class="unit xs-1 s-1 m-1-2 gutter-1-2">
 					<label for="first-name">First Name</label>
 					<input id="first-name" class="w-1" required name="firstname">
@@ -80,16 +80,15 @@
 					<input id="last-name" class="w-1" required name="lastname">
 				</div>
 
-				<div class="unit xs-1 l-1-3 pad-t-1-2 pad-b gutter-1-2">
+				<div class="unit xs-1 l-1-2 pad-t-1-2 pad-b gutter-1-2">
           			<label for="email">Email</label>
           			<input id="email" type="email" required placeholder="johndoe@gmail.com">
         		</div>
-				<div class="unit xs-1 l-1-3 pad-t-1-2 pad-b gutter-1-2">
+				<div class="unit xs-1 l-1-2 pad-t-1-2 pad-b gutter-1-2">
           			<label for="confirm-email">Confirm Email</label>
           			<input id="confirm-email" type="confirm-email" required placeholder="johndoe@gmail.com">
         		</div>
      
-        <div class="bday">
 			<div class="unit xs-1-3 gutter-1-2">
 			<label for="month">Birthday</label>
 				<select id="month" required>
@@ -109,7 +108,7 @@
 				</select>
 			</div>
 			<div class="unit xs-1 m-1-3 gutter-1-2">
-			<label for="day">Day</label>
+			<label for="day" class="visually-hidden">Day</label>
 				<select id="day" required>
 					<option value default="default" selected="selected">day</option>
 					<option>1</option>
@@ -148,7 +147,7 @@
 				</select>
 			</div>
 			<div class="unit xs-1 m-1-3 gutter-1-2">				
-			<label for="year">Year</label>
+			<label for="year" class="visually-hidden">Year</label>
 				<select id="year" required>
 					<option value default="default" selected="selected">year</option>
 					<option>1901</option>
@@ -268,10 +267,7 @@
 					<option>2015</option>
 				</select>
 			</div>
-		</div>
-	<div class="unit xs-1 s-1 m-1 l-1 gutter-1-2 pad-t-1-2 blue">
-		<legend class="accountinfo">Account Info</legend>
-	</div>
+
 			<div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 pad-t-1-2 blue">
 				<label for="username">Username</label>
 				<input id="username" type="type" required name="text">
@@ -288,18 +284,77 @@
 	</fieldset>
 
 	<fieldset>
-		<legend>Billing Info</legend>
+		<legend>Subscription Plan</legend>
 
 			<div class="grid">
-				<div class="unit xs-1-2 pad-b gutter-1-2">
-					<label for="plans">Price Plan</label>
+				<div class="unit xs-1 gutter-1-2">
+					<label for="plans">Choose your subscription type</label>
 					<select id="plans" name="plans">
 						<option>Free Trial</option>
-						<option>On-Time</option>
-						<option>Membership</option>
+						<option>One-Time($15.50/month)</option>
+						<option>Membership($30.00/month)</option>
 					</select>
 				</div>
 			</div>
+			<div class="unit xs-1 gutter-1-2">
+				<label for="credit-card">Credit Card Number</label>
+				<input id="credit-card" type="text" name="credit-card" required>
+			</div>
+
+			<div class="grid">
+				<div class="unit xs-1-2 m-1-3 gutter-1-2">
+					<label for="expiry-month">Expiry Month</label>
+					<select id="expiry-month" required>
+						<option value default="default" selected="selected">Month</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+					</select>
+				</div>
+				<div class="unit xs-1-2 m-1-3 gutter-1-2">
+					<label for="expiry-year">Expiry Year</label>
+					<select id="expiry-year" required>
+						<option value default="default" selected="selected">Year</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+						<option>2019</option>
+						<option>2020</option>						
+					</select>
+				</div>
+				<div class="unit xs-1 m-1-3 gutter-1-2">
+					<label for="security-code">Security Code</label>
+					<input id="security-code" type="text" name="security-code" required>
+				</div>	
+			</div>
+			<div class="unit xs-1 gutter-1-2">
+				<label for="full-name">Full name on a Card</label>
+				<input id="full-name" type="text" name="full-name" required>
+			</div>
+			<div class="unit xs-1 gutter-1-2">
+				<label for="phone-number">Phone Number</label>
+				<input id="phone-number" type="text" name="phone-number" required>
+			</div>
+	</fieldset>
+
+	<fieldset>
+			<legend>Would you like to recieve emails on our future updates and promotions?</legend>
+
+			<input id="yes" type="radio" name="answer">
+			<label for="yes">Yes</label>
+
+			<input id="no" type="radio" name="answer">
+			<label for="no">No</label>
 	</fieldset>
 
 		<div class="unit xs-1 gutter-2 pad-t-2 text-center">
