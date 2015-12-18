@@ -289,7 +289,7 @@ nav ul {
 	font-size: 18px;
 	text-decoration: none;
 }
-.whatruwaiting4btn a:hover{
+.whatruwaiting4btn:hover{
 	color: black;
 	background-color: white;
 }
@@ -380,7 +380,7 @@ input {
 	background-color: white;
 	font-size: 12px;
 	padding: 5px;
-	width: 50%;
+	width: 100%;
 }
 
 button {
