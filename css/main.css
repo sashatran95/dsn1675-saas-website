@@ -64,7 +64,8 @@ img {
 }
 .overviewbanner{
 	background-image: url(../images/photo-4.jpg);
-	background-size: cover;
+	background-size: 12 top;
+	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: black;
@@ -92,6 +93,7 @@ img {
 .pricingbanner{
 	background-image: url(../images/photo-7.jpg);
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: black;
@@ -242,6 +244,7 @@ nav ul {
 	background-image: url(../images/photo-3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	position: relative;
 	color: #006192;
 	padding-top: 3em;
