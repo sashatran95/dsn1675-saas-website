@@ -64,7 +64,6 @@ img {
 }
 .overviewbanner{
 	background-image: url(../images/photo-4.jpg);
-	background-size: 12 top;
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
