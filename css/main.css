@@ -79,8 +79,15 @@ img {
 	text-align: center;
 }
 .thatswhattheysaid{
-	padding: 1em;
+	padding-top: 1em;
 	font-weight: 400;
+	margin-bottom: 0;
+}
+.quoters{
+	font-style: italic;
+	font-size: 15px;
+	text-align: right;
+	margin: 0 auto;
 }
 .pricingbanner{
 	background-image: url(../images/photo-7.jpg);
@@ -453,7 +460,7 @@ button:hover {
 	}
 	.tourimg{
 		width: 50%;
-		display: inline-block;
+		position: relative;
 	}
 	.tourp{
 		text-align: left;
@@ -554,7 +561,12 @@ button:hover {
 	.banner figcaption{
 		font-size: 30px;
 	}
-
+	.tourimg{
+		width: 30%;
+	}
+	.smallimg{
+		width: 40%;
+	}
 }
 @media only screen and (min-width: 53.4375em) {/*855px*/
 	.banner figcaption{
@@ -582,6 +594,9 @@ button:hover {
 	.tourimg{
 		width: 30%
 	}
+	.smallimg{
+		width: 20%;
+	}
 }
 @media only screen and (min-width:65em){
 	.h1other{
@@ -595,6 +610,9 @@ button:hover {
 	}
 	.btn {
 		font-size: 19px;
+	}
+	.tourimg{
+		width: 20%;
 	}
 }
 @media only screen and (min-width: 75em){/*1200px*/
