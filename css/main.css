@@ -64,7 +64,8 @@ img {
 }
 .overviewbanner{
 	background-image: url(../images/photo-4.jpg);
-	background-position: top;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: black;
